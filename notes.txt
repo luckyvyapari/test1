@@ -14,10 +14,18 @@ cat ~/.ssh/id_rsa.pub  ==to copy shs key
 
 
 git init
-git config user.name "someone"
-git config user.email "someone@someplace.com"
+git config user.name "luckyvyapari"
+git config user.email "lvyapari@gmail.com"
 
  git add .
 
 
  git commit -m "first commit"
+
+
+
+ git remote add origin git@github.com:luckyvyapari/test1.git
+
+ git push origin master
+
+  ssh -o StrictHostKeyChecking=no git@github.com
