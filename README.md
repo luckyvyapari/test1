@@ -49,7 +49,7 @@ Before starting to install our item, make sure you fulfill the following require
 
 ##  Installation
 
-In order to install the Awzpact login system with role, please follow these steps:
+In order to install the login system , please follow these steps:
 
 1. Search for the folder SOURCE_CODE in the main script folder that you have downloaded.
 2. Now upload the SOURCE_CODE folder into your server using FTP or in Localhost(I have used XAMPP).
@@ -60,19 +60,25 @@ In order to install the Awzpact login system with role, please follow these step
 
 ![Example screenshot](./img/1.png)
 
+7. Open up these files with any text editor (for example: notepad++).
+8.In config.php file, make these changes:
+9. Change the indicated values of photos like this
+
+![Example screenshot](./img/1_1.png)
 
 
-
-## Setup
-
-You’ll need XAMP Server or WAMP Server. Put the file inside “c:/wamp/www/” or “c:/xampp/htdocs/”. Go To “localhost/phpmyadmin” in any browser and create Database named “cms”.In That Database, Import cms.sql and finally open go to URL: “http://localhost/file_name/phpfilename”
-Don’t Forget To create a database and import sql file to run.
+10. In database.php file, make these changes:
+11. Change the indicated values of photos like this:
 
 
+![Example screenshot](./img/1_2.png)
 
+12.NOTE -Don’t Forget To create a database and import sql file to run.
 
 Login Admin      Username : admin
                  Password :  123456
+
+
 
 
 
