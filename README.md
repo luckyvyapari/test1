@@ -6,6 +6,7 @@
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Requirements](#requirements)
+* [Installation](#installtion)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
@@ -44,6 +45,22 @@ Before starting to install our item, make sure you fulfill the following require
 * allow_url_fopen Enabled
 * file_get_contents Enabled
 * Php Exec Enabled
+
+
+##  Installation
+
+In order to install the Awzpact login system with role, please follow these steps:
+
+1. Search for the folder SOURCE_CODE in the main script folder that you have downloaded.
+2. Now upload the SOURCE_CODE folder into your server using FTP or in Localhost(I have used XAMPP).
+3. Create mysql database using cpanel or your hosting provider's system or in localhost. Then import the awzpact_db.sql file (that you got into the script's DATABASE folder) into your created database.
+4. Now you will have to setup the config and database file. If you are familier with codeigniter, you should know about it. But don't worry! I will tell step by step.
+5. Go to the SOURCE_CODE folder, then application and then config folder.
+6.You will get two files config.php and database.php
+
+![Example screenshot](./img/1.png)
+
+
 
 
 ## Setup
