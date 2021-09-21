@@ -5,6 +5,7 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
+* [Requirements](#requirements)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
@@ -30,6 +31,19 @@ This is a : Content Management System like WordPress, Drupal or Joomla Using PHP
 * Tech 3 - html.
 * Tech 1 - css.
 * Tech 2 - javascript.
+
+
+## Requirements
+Before starting to install our item, make sure you fulfill the following requirements:
+
+* PHP Version >= 7.0
+* MySQL Version >= 5.6
+* GD Library Enabled
+* mod_rewrite Enabled
+* CURL Module Active
+* allow_url_fopen Enabled
+* file_get_contents Enabled
+* Php Exec Enabled
 
 
 ## Setup
