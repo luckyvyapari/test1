@@ -1,0 +1,23 @@
+ssh-keygen -t rsa -b 4096 -C "lvyapari@gmail.com"
+
+enter any key m
+
+eval $(ssh-agent -s)
+
+
+ssh-add ~/.ssh/id_rsa
+
+clip < ~/.ssh/id_rsa.pub
+
+
+cat ~/.ssh/id_rsa.pub  ==to copy shs key
+
+
+git init
+git config user.name "someone"
+git config user.email "someone@someplace.com"
+
+ git add .
+
+
+ git commit -m "first commit"
